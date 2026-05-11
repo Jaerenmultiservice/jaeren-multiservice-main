@@ -11,7 +11,7 @@ export default function Contact() {
     const form = e.currentTarget
     const formData = new FormData(form)
     // include subject for Formspree
-    formData.set('_subject', 'Ny forespørsel fra jaerenmultiservice.no')
+    formData.set('_subject', 'Ny forespørsel fra www.jaerenmultiservice.no')
 
     try {
       const res = await fetch(FORMSPREE_URL, {
@@ -47,7 +47,7 @@ export default function Contact() {
         </p>
 
         <form onSubmit={handleSubmit} method="POST" action={FORMSPREE_URL} className="mt-6 space-y-6">
-          <input type="hidden" name="_subject" value="Ny forespørsel fra jaerenmultiservice.no" />
+          <input type="hidden" name="_subject" value="Ny forespørsel fra www.jaerenmultiservice.no" />
 
           <div>
             <label htmlFor="name" className={labelClass}>

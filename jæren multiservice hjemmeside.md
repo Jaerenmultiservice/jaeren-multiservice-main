@@ -3,7 +3,7 @@
 ## Oversikt
 Dette er nettsiden for Jæren Multiservice, en tjenesteleverandør som tilbyr profesjonelle tjenester som takvask, høytrykkspyling, hekkeklipp, gravearbeid og mer i Jæren, Sandnes og Stavanger-området.
 
-- **Produksjons-URL:** https://jaerenmultiservice.no/
+- **Produksjons-URL:** https://www.jaerenmultiservice.no/
 - **GitHub Repo:** Koblet til GitHub; deploy skjer automatisk via hosting (f.eks. Netlify) når du pusher til `main`-branchen.
 - **Språk:** Norsk (no)
 - **Teknologi:** React med TypeScript, Vite, Tailwind CSS, React Router
@@ -96,7 +96,7 @@ Hjemmesiden består av følgende komponenter:
 Nettsiden bruker Formspree for håndtering av kontaktskjemaer. Dette sender e-poster direkte uten behov for backend.
 
 - **Formspree URL:** https://formspree.io/f/mgonpjya
-- **Emne:** "Ny forespørsel fra jaerenmultiservice.no"
+- **Emne:** "Ny forespørsel fra www.jaerenmultiservice.no"
 - **Funksjonalitet:** Uforpliktende befaring-forespørsler sendes via skjemaet
 
 ### Kontaktinformasjon
@@ -110,7 +110,7 @@ Skjemaet inkluderer felt for navn, e-post, telefon, melding og mulighet for filo
 - **Språk:** no (Norsk)
 - **Tittel:** "Jæren Multiservice – Profesjonelle tjenester"
 - **Beskrivelse:** "Jæren Multiservice – profesjonelle tjenester for private og bedrifter. Takvask, høytrykkspyling, hekkeklipp og gravearbeid i Jæren, Sandnes og Stavanger."
-- **Canonical URL:** https://jaerenmultiservice.no/
+- **Canonical URL:** https://www.jaerenmultiservice.no/
 - **Favicon:** /favicon.svg
 - **Fonts:** Saira Condensed fra Google Fonts
 - **Bakgrunnsfarge:** #0d0d0d (mørk)

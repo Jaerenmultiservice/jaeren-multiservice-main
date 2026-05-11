@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row md:items-start md:justify-between gap-8">
         <div>
           <h3 className="text-xl font-bold text-white">Jæren Multiservice</h3>
-          <p className="mt-2 text-gray-500 text-sm">Org.nr: 937516606</p>
+          <p className="mt-2 text-gray-500 text-sm">Org.nr: 937 516 606</p>
           <p className="text-gray-500 text-sm">Område: Jæren, Sandnes, Stavanger</p>
         </div>
 
