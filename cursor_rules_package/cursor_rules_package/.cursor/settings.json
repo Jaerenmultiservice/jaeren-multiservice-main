@@ -1,0 +1,7 @@
+{
+  "rules": true,
+  "autoApplyRules": true,
+  "contextFiles": true,
+  "commandsEnabled": true,
+  "preferWorkspaceRules": true
+}
