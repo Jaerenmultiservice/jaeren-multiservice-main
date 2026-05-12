@@ -3,5 +3,10 @@
   "autoApplyRules": true,
   "contextFiles": true,
   "commandsEnabled": true,
-  "preferWorkspaceRules": true
+  "preferWorkspaceRules": true,
+  "plugins": {
+    "sonatype-cursor-plugin": {
+      "enabled": true
+    }
+  }
 }

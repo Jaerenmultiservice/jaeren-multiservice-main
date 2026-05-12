@@ -64,6 +64,13 @@ export default function Contact() {
           </div>
 
           <div>
+            <label htmlFor="telefon" className={labelClass}>
+              Telefon
+            </label>
+            <input id="telefon" name="telefon" type="tel" className={inputClass} placeholder="Telefon (valgfritt)" />
+          </div>
+
+          <div>
             <label htmlFor="message" className={labelClass}>
               Melding
             </label>
@@ -74,6 +81,20 @@ export default function Contact() {
               className={textareaClass}
               placeholder="Hva trenger du hjelp med?"
             />
+          </div>
+
+          <div>
+            <label htmlFor="vedlegg" className={labelClass}>
+              Vedlegg
+            </label>
+            <input
+              id="vedlegg"
+              name="attachment"
+              type="file"
+              multiple
+              className="block w-full text-sm text-gray-400 file:mr-4 file:rounded-md file:border-0 file:bg-neutral-800 file:px-4 file:py-2 file:text-sm file:font-medium file:text-white hover:file:bg-neutral-700"
+            />
+            <p className="mt-1 text-sm text-gray-500">Valgfritt – ett eller flere vedlegg.</p>
           </div>
 
           {status === 'sent' && <p className="text-accent font-medium">Takk! Vi tar kontakt så snart vi kan.</p>}

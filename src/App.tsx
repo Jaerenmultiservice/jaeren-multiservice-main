@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
 import Home from "./pages/Home";
 
@@ -51,10 +51,15 @@ function App() {
         <Route path="/graving/tomtearbeid" element={<Tomtearbeid />} />
 
         <Route path="/smarthjem" element={<Smarthjem />} />
-        <Route path="/smarthjem/smarthus" element={<Smarthus />} />
-        <Route path="/smarthjem/wifi" element={<Wifi />} />
-        <Route path="/smarthjem/pc" element={<PcHjelp />} />
-        <Route path="/smarthjem/feilsoking" element={<Feilsoking />} />
+        <Route path="/smarthus" element={<Smarthus />} />
+        <Route path="/wifi" element={<Wifi />} />
+        <Route path="/pchjelp" element={<PcHjelp />} />
+        <Route path="/feilsoking" element={<Feilsoking />} />
+
+        <Route path="/smarthjem/smarthus" element={<Navigate to="/smarthus" replace />} />
+        <Route path="/smarthjem/wifi" element={<Navigate to="/wifi" replace />} />
+        <Route path="/smarthjem/pc" element={<Navigate to="/pchjelp" replace />} />
+        <Route path="/smarthjem/feilsoking" element={<Navigate to="/feilsoking" replace />} />
       </Routes>
     </Router>
   );
