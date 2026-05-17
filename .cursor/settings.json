@@ -7,6 +7,9 @@
   "plugins": {
     "sonatype-cursor-plugin": {
       "enabled": true
+    },
+    "cloudflare": {
+      "enabled": true
     }
   }
 }

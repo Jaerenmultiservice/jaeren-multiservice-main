@@ -8,6 +8,23 @@ Nettsiden bygges med Vite (`npm run build` → `dist/`) og publiseres på **Clou
 Endringer → git push origin main → GitHub → Cloudflare Pages → jaerenmultiservice.no
 ```
 
+## Cursor Cloud Agent / Marketplace
+
+Repoet er satt opp for [Cloudflare Marketplace-plugin](https://cursor.com/marketplace/cloudflare):
+
+- **Skills:** `wrangler`, `cloudflare` (under `.cursor/skills/`)
+- **MCP:** `.cursor/mcp.json` (Code Mode + Builds + Docs)
+- **CLI:** `npm run deploy` (bygg + `wrangler pages deploy`)
+
+For at agenten skal kunne deploye fra miljøet, legg til **Cloud Agent secrets** i Cursor:
+
+| Secret | Beskrivelse |
+|--------|-------------|
+| `CLOUDFLARE_API_TOKEN` | API token med **Account** → Cloudflare Pages → Edit |
+| `CLOUDFLARE_ACCOUNT_ID` | Account ID fra Workers & Pages-dashboard |
+
+Valgfritt for GitHub Actions: samme secrets som repository secrets (se under).
+
 ## Engangsoppsett (velg én metode)
 
 ### Metode A: Cloudflare koblet til GitHub (anbefalt i dashboard)

@@ -12,6 +12,7 @@ Nettside for Jæren Multiservice.
 npm install
 npm run dev      # http://localhost:5173
 npm run build    # produksjonsbygg i dist/
+npm run deploy   # bygg + deploy til Cloudflare Pages (krever CLOUDFLARE_API_TOKEN)
 npm run preview  # forhåndsvis dist/
 ```
 

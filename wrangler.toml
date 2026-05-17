@@ -1,5 +1,6 @@
 # Cloudflare Pages – statisk Vite-build
-# Koble repo i dashboard ELLER deploy via GitHub Actions (se .github/workflows/)
+# Koble repo i dashboard ELLER: npm run deploy (krever CLOUDFLARE_API_TOKEN)
+# account_id settes via CLOUDFLARE_ACCOUNT_ID env eller wrangler login
 name = "jaeren-multiservice"
 compatibility_date = "2024-09-01"
 pages_build_output_dir = "dist"
