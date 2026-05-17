@@ -1,0 +1,5 @@
+# Cloudflare Pages – statisk Vite-build
+# Koble repo i dashboard ELLER deploy via GitHub Actions (se .github/workflows/)
+name = "jaeren-multiservice"
+compatibility_date = "2024-09-01"
+pages_build_output_dir = "dist"

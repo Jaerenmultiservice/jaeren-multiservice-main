@@ -4,7 +4,7 @@
 Dette er nettsiden for Jæren Multiservice, en tjenesteleverandør som tilbyr profesjonelle tjenester som takvask, høytrykkspyling, hekkeklipp, gravearbeid og mer i Jæren, Sandnes og Stavanger-området.
 
 - **Produksjons-URL:** https://www.jaerenmultiservice.no/
-- **GitHub Repo:** Koblet til GitHub; deploy skjer automatisk via hosting (f.eks. Netlify) når du pusher til `main`-branchen.
+- **GitHub Repo:** Koblet til GitHub; deploy skjer automatisk via **Cloudflare Pages** når du pusher til `main`-branchen.
 - **Språk:** Norsk (no)
 - **Teknologi:** React med TypeScript, Vite, Tailwind CSS, React Router
 
@@ -118,7 +118,7 @@ Skjemaet inkluderer felt for navn, e-post, telefon, melding og mulighet for filo
 ## Utvikling og Deploy
 - **Utvikling:** Kjør `npm run dev` for lokal utvikling
 - **Bygg:** `npm run build` lager produksjonsbygg i `dist`-mappen
-- **Deploy:** Automatisk via GitHub-integrasjon med hosting-plattform (f.eks. Netlify) på push til main
+- **Deploy:** Automatisk via GitHub + Cloudflare Pages på push til `main` (se [DEPLOY.md](DEPLOY.md))
 
 ## Ytterligere Ressurser
 - Bilder og videoer ligger i `public/images/` og `public/videos/`
